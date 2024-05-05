@@ -9,6 +9,8 @@ environ.Env.read_env(BASE_DIR / '.env')
 SECRET_KEY = env('SECRET_KEY')
 
 DEBUG = False
+CSRF_TRUSTED_ORIGINS = ['https://drf-prectice.onrender.com','https://*.127.0.0.1']
+
 
 
 
